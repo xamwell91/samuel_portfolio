@@ -41,6 +41,17 @@
         <link rel="alternate stylesheet" href="assets/css/colors/orange.css" title="orange">
         <link rel="alternate stylesheet" href="assets/css/colors/purple.css" title="purple">
         
+
+        <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function() {
+                emailjs.init("CXQXbtIZGoX6FCh6J"); 
+            })();
+        </script>
+
+
+
+
     </head>
     <body class="dark-vertion black-bg">
         <!-- Start Loader -->
@@ -83,12 +94,8 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="#mh-portfolio">Portfolio</a>
                                 </li>                               
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#mh-pricing">Pricing</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#mh-blog">Blog</a>
-                                </li>
+                              
+                              
                                 <li class="nav-item">
                                    <a class="nav-link" href="#mh-contact">Contact</a>
                                 </li>
@@ -502,74 +509,14 @@
             </div>
         </section>
         
-        <!--
-        ===================
-           PRICING
-        ===================
-        -->
-        <section class="mh-pricing" id="mh-pricing">
-            <div class="">
-                <div class="container">
-                    <div class="row section-separator">
-                        <div class="col-sm-12 section-title" data-wow-duration="0.8s" data-wow-delay="0.2s">
-                            <h3>Pricing Table</h3>
-                        </div>
-                        <div class="col-sm-12 col-md-4">
-                            <div class="mh-pricing dark-bg shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
-                                <i class="fa fa-calendar"></i>
-                                <h4>Full-time work</h4>
-                                <p>I am available for full time</p>
-                                <h5>$1500</h5>
-                                <ul>
-                                    <li>Web Development</li>
-                                    <li>Advetising</li>
-                                    <li>Game Development</li>
-                                    <li>Music Writing</li>
-                                </ul>
-                                <a href="#" class="btn btn-fill">Hire Me</a>
-                            </div>  
-                        </div>                    
-                        <div class="col-sm-12 col-md-4">
-                            <div class="mh-pricing dark-bg shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
-                                <i class="fa fa-file"></i>
-                                <h4>Fixed Price Project</h4>
-                                <p>I am available for fixed roles</p>
-                                <h5>$500</h5>
-                                <ul>
-                                    <li>Web Development</li>
-                                    <li>Advetising</li>
-                                    <li>Game Development</li>
-                                    <li>Music Writing</li>
-                                </ul>
-                                <a href="#" class="btn btn-fill">Hire Me</a>
-                            </div>  
-                        </div>
-                        <div class="col-sm-12 col-md-4">
-                            <div class="mh-pricing dark-bg shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
-                                <i class="fa fa-hourglass"></i>
-                                <h4>Hourley work</h4>
-                                <p>I am available for Hourley projets</p>
-                                <h5>$50</h5>
-                                <ul>
-                                    <li>Web Development</li>
-                                    <li>Advetising</li>
-                                    <li>Game Development</li>
-                                    <li>Music Writing</li>
-                                </ul>
-                                <a href="#" class="btn btn-fill">Hire Me</a>
-                            </div>  
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+  
         
         <!--
         ===================
            BLOG
         ===================
         -->
-        <section class="mh-blog" id="mh-blog">
+        <!-- <section class="mh-blog" id="mh-blog">
             <div class="container">
                 <div class="row section-separator">
                     <div class="col-sm-12 section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
@@ -625,88 +572,9 @@
                     </div>
                 </div>
             </div>
-        </section>        
+        </section>         -->
         
-        <!--
-        ===================
-           TESTIMONIALS
-        ===================
-        -->
-        <section class="mh-testimonial" id="mh-testimonial">
-            <div class="home-v-img">
-                <div class="container">
-                    <div class="row section-separator">
-                        <div class="col-sm-12 section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-                            <h3>Client Reviews</h3>
-                        </div>
-                        <div class="col-sm-12 wow fadeInUp" id="mh-client-review" data-wow-duration="0.8s" data-wow-delay="0.3s">
-                            <div class="each-client-item">
-                                <div class="mh-client-item dark-bg black-shadow-1">
-                                    <img src="assets/images/c-1.png" alt="" class="img-fluid">
-                                    <p>Absolute wonderful ! I am completely
-                                    blown away.The very best.I was amazed
-                                    at the quality</p>
-                                    <h4>John Mike</h4>
-                                    <span>CEO, Author.Inc</span>
-                                </div>
-                            </div>
-                            <div class="each-client-item">
-                                <div class="mh-client-item dark-bg black-shadow-1">
-                                    <img src="assets/images/c-1.png" alt="" class="img-fluid">
-                                    <p>Absolute wonderful ! I am completely
-                                    blown away.The very best.I was amazed
-                                    at the quality</p>
-                                    <h4>John Mike</h4>
-                                    <span>CEO, Author.Inc</span>
-                                </div>
-                            </div>                    
-                            
-                            <div class="each-client-item">
-                                <div class="mh-client-item dark-bg black-shadow-1">
-                                    <img src="assets/images/c-1.png" alt="" class="img-fluid">
-                                    <p>Absolute wonderful ! I am completely
-                                    blown away.The very best.I was amazed
-                                    at the quality</p>
-                                    <h4>John Mike</h4>
-                                    <span>CEO, Author.Inc</span>
-                                </div>
-                            </div>
-                            <div class="each-client-item">
-                                <div class="mh-client-item dark-bg black-shadow-1">
-                                    <img src="assets/images/c-1.png" alt="" class="img-fluid">
-                                    <p>Absolute wonderful ! I am completely
-                                    blown away.The very best.I was amazed
-                                    at the quality</p>
-                                    <h4>John Mike</h4>
-                                    <span>CEO, Author.Inc</span>
-                                </div>
-                            </div>
-                            <div class="each-client-item">
-                                <div class="mh-client-item dark-bg black-shadow-1">
-                                    <img src="assets/images/c-1.png" alt="" class="img-fluid">
-                                    <p>Absolute wonderful ! I am completely
-                                    blown away.The very best.I was amazed
-                                    at the quality</p>
-                                    <h4>John Mike</h4>
-                                    <span>CEO, Author.Inc</span>
-                                </div>
-                            </div>                    
-                            
-                            <div class="each-client-item">
-                                <div class="mh-client-item dark-bg black-shadow-1">
-                                    <img src="assets/images/c-1.png" alt="" class="img-fluid">
-                                    <p>Absolute wonderful ! I am completely
-                                    blown away.The very best.I was amazed
-                                    at the quality</p>
-                                    <h4>John Mike</h4>
-                                    <span>CEO, Author.Inc</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+  
         
         <!--
         ===================
@@ -730,8 +598,8 @@
                                         <div class="each-info">
                                             <h4>Address</h4>
                                             <address>
-                                                5th Avenue, 34th floor, <br> 
-                                                 New york
+                                                Kathmandu, <br> 
+                                                 Nepal
                                             </address>
                                         </div>
                                     </div>
@@ -743,8 +611,10 @@
                                         </div>
                                         <div class="each-info">
                                             <h4>Email</h4>
-                                            <a href="mailto:yourmail@email.com">yourmail@email.com</a><br>
-                                            <a href="mailto:yourmail@email.com">yourmail@email.com</a>
+                                           
+                                            <a href="mailto:samuelthapamagar77@gmail.com">samuelthapamagar77@gmail.com</a><br>
+                                            
+                                            <br>
                                         </div>
                                     </div>
                                 </div>
@@ -755,13 +625,17 @@
                                         </div>
                                         <div class="each-info">
                                             <h4>Phone</h4>
-                                            <a href="callto:(880)-8976-987">(880)-8976-987</a><br>
-                                            <a href="callto:(880)-8976-987">(880)-8976-987</a>
+                                            <a href="tel:+977 9860889656">+977 9860889656</a><br>
+                                            <br>
+                                          
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
+                      
+
                         <div class="col-sm-12 col-md-6 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
                             <form id="contactForm" class="single-form quate-form wow fadeInUp" data-toggle="validator">
                                 <div id="msgSubmit" class="h3 text-center hidden"></div>
@@ -773,10 +647,10 @@
                                         <input name="name" class="contact-email form-control" id="L_name" type="text" placeholder="Last Name" required>
                                     </div>
                                     <div class="col-sm-12">
-                                        <input name="name" class="contact-subject form-control" id="email" type="email" placeholder="Your Email" required>
+                                        <input name="email" class="contact-subject form-control" id="email" type="email" placeholder="Your Email" required>
                                     </div>
                                     <div class="col-sm-12">
-                                        <textarea class="contact-message" id="message" rows="6" placeholder="Your Message" required></textarea>
+                                        <textarea name="message" class="contact-message" id="message" rows="6" placeholder="Your Message" required></textarea>
                                     </div>
                                     <!-- Subject Button -->
                                     <div class="btn-form col-sm-12">
@@ -785,6 +659,32 @@
                                 </div>
                             </form>
                         </div>
+
+                        <script type="text/javascript">
+                            // Get the form element
+                            const form = document.getElementById('contactForm');
+                    
+                            // Function to send email
+                            const sendEmail = (e) => {
+                                e.preventDefault();
+                    
+                                // Replace with your actual service id, template id, and public key from your EmailJS account
+                                emailjs.sendForm('service_kmijikh', 'template_xc7t1wu', form, 'CXQXbtIZGoX6FCh6J')
+                                    .then((result) => {
+                                        console.log(result.text);
+                                    }, (error) => {
+                                        console.log(error.text);
+                                    }
+                                );
+                    
+                                e.target.reset();
+                            };
+                    
+                            // Attach the event listener to the form
+                            form.addEventListener('submit', sendEmail);
+                        </script>
+
+
                         <div class="col-sm-12 col-md-6 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
                             <div class="mh-map">
                                 <div id="mh-map" class="shadow-1"></div>
@@ -792,17 +692,13 @@
                         </div>
                         <div class="col-sm-12 mh-copyright wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
                             <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="text-left text-xs-center">
-                                       <p><a href="templateshub.net">Templates Hub</a></p>
-                                    </div>
-                                </div>
+                              
                                 <div class="col-sm-6">
                                     <ul class="social-icon">
-                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-github"></i></a></li>
-                                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                        <li><a href="https://www.facebook.com/samuelthapamagar777" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                       
+                                        <li><a href="https://github.com/samuelthapamagar" target="_blank"><i class="fa fa-github"></i></a></li>
+                                        <li><a href="https://www.instagram.com/samuel.thapa.magar/" target="_blank"><i class="fa fa-instagram"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -859,7 +755,7 @@
     <script type="text/javascript" src="demo/styleswitcher.js"></script>
     <script type="text/javascript" src="demo/demo.js"></script>
         <!-- <div class="demo-style-switch" id="switch-style"> -->
-    <a id="toggle-switcher" class="switch-button"><i class="fa fa-snowflake-o fa-spin"></i></a>
+    <!-- <a id="toggle-switcher" class="switch-button"><i class="fa fa-snowflake-o fa-spin"></i></a>
     <div class="switched-options">
     <ul>
         <li class="mh-demo-styles"> 
@@ -927,7 +823,7 @@
         </li>
     </ul>
     </div>
-    </div>
+    </div> -->
 </body>
 
 </html>

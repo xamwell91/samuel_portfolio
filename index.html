@@ -647,10 +647,10 @@
                                         <input name="name" class="contact-email form-control" id="L_name" type="text" placeholder="Last Name" required>
                                     </div>
                                     <div class="col-sm-12">
-                                        <input name="email" class="contact-subject form-control" id="email" type="email" placeholder="Your Email" required>
+                                        <input name="name" class="contact-subject form-control" id="email" type="email" placeholder="Your Email" required>
                                     </div>
                                     <div class="col-sm-12">
-                                        <textarea name="message" class="contact-message" id="message" rows="6" placeholder="Your Message" required></textarea>
+                                        <textarea class="contact-message" id="message" rows="6" placeholder="Your Message" required></textarea>
                                     </div>
                                     <!-- Subject Button -->
                                     <div class="btn-form col-sm-12">
@@ -660,29 +660,7 @@
                             </form>
                         </div>
 
-                        <script type="text/javascript">
-                            // Get the form element
-                            const form = document.getElementById('contactForm');
-                    
-                            // Function to send email
-                            const sendEmail = (e) => {
-                                e.preventDefault();
-                    
-                                // Replace with your actual service id, template id, and public key from your EmailJS account
-                                emailjs.sendForm('service_kmijikh', 'template_xc7t1wu', form, 'CXQXbtIZGoX6FCh6J')
-                                    .then((result) => {
-                                        console.log(result.text);
-                                    }, (error) => {
-                                        console.log(error.text);
-                                    }
-                                );
-                    
-                                e.target.reset();
-                            };
-                    
-                            // Attach the event listener to the form
-                            form.addEventListener('submit', sendEmail);
-                        </script>
+
 
 
                         <div class="col-sm-12 col-md-6 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
@@ -744,6 +722,8 @@
     <!-- Custom Scripts-->
     <script src="assets/js/map-init.js"></script>
     <script src="assets/js/custom-scripts.js"></script>
+
+    <script src="assets/js/emailjs.js"></script>
     
 
     <!-- ****************
